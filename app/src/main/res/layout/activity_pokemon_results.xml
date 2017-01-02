@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="uk.co.marctowler.pokemonteambuilder.WelcomeActivity">
+    tools:context="uk.co.marctowler.pokemonteambuilder.PokemonResults">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,6 +21,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_welcome" />
+    <include layout="@layout/content_pokemon_results" />
 
 </android.support.design.widget.CoordinatorLayout>

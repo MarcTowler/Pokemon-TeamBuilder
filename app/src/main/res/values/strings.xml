@@ -1,4 +1,29 @@
 <resources>
-    <string name="app_name">Pokemon Team Builder</string>
+    <string name="app_name">Pokémon Team Builder</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash Page</string>
+    <string name="title_activity_add_pokemon">Add Pokémon</string>
+
+    <string name="enterpkmn">Enter your Pokémon</string>
+    <string name="submit">Submit</string>
+    <string name="pkmn1">Pokémon 1</string>
+    <string name="pkmn2">Pokémon 2</string>
+    <string name="pkmn3">Pokémon 3</string>
+    <string name="pkmn4">Pokémon 4</string>
+    <string name="pkmn5">Pokémon 5</string>
+    <string name="pkmn6">Pokémon 6</string>
+
+
+    <string-array name="lstPkmn">
+        <item>Bulbasaur</item>
+        <item>Ivysaur</item>
+        <item>Venusaur</item>
+        <item>Charmander</item>
+        <item>Charmeleon</item>
+        <item>Charizard</item>
+        <item>Squirtle</item>
+        <item>Wartortle</item>
+        <item>Blastoise</item>
+    </string-array>
+    <string name="title_activity_pokemon_results">Team Results</string>
 </resources>
