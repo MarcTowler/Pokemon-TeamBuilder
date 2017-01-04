@@ -6,12 +6,13 @@
 
     <string name="enterpkmn">Enter your Pokémon</string>
     <string name="submit">Submit</string>
-    <string name="pkmn1">Pokémon 1</string>
-    <string name="pkmn2">Pokémon 2</string>
-    <string name="pkmn3">Pokémon 3</string>
-    <string name="pkmn4">Pokémon 4</string>
-    <string name="pkmn5">Pokémon 5</string>
-    <string name="pkmn6">Pokémon 6</string>
+    <string name="teamresults">Your Team's Result</string>
+    <string name="pkmn1">Your 1st Pokémon:</string>
+    <string name="pkmn2">Your 2nd Pokémon:</string>
+    <string name="pkmn3">Your 3rd Pokémon:</string>
+    <string name="pkmn4">Your 4th Pokémon:</string>
+    <string name="pkmn5">Your 5th Pokémon:</string>
+    <string name="pkmn6">Your 6th Pokémon:</string>
 
 
     <string-array name="lstPkmn">
