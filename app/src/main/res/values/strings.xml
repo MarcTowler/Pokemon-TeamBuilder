@@ -6,7 +6,7 @@
 
     <string name="enterpkmn">Enter your Pokémon</string>
     <string name="submit">Submit</string>
-    <string name="teamresults">Your Team's Result</string>
+    <string name="teamresults">Your Team\'s Result</string>
     <string name="pkmn1">Your 1st Pokémon:</string>
     <string name="pkmn2">Your 2nd Pokémon:</string>
     <string name="pkmn3">Your 3rd Pokémon:</string>

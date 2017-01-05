@@ -22,11 +22,11 @@ public class AddPokemonActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         final AutoCompleteTextView pkmnList1 = (AutoCompleteTextView) findViewById(R.id.pkmn1);
-        AutoCompleteTextView pkmnList2 = (AutoCompleteTextView) findViewById(R.id.pkmn2);
-        AutoCompleteTextView pkmnList3 = (AutoCompleteTextView) findViewById(R.id.pkmn3);
-        AutoCompleteTextView pkmnList4 = (AutoCompleteTextView) findViewById(R.id.pkmn4);
-        AutoCompleteTextView pkmnList5 = (AutoCompleteTextView) findViewById(R.id.pkmn5);
-        AutoCompleteTextView pkmnList6 = (AutoCompleteTextView) findViewById(R.id.pkmn6);
+        final AutoCompleteTextView pkmnList2 = (AutoCompleteTextView) findViewById(R.id.pkmn2);
+        final AutoCompleteTextView pkmnList3 = (AutoCompleteTextView) findViewById(R.id.pkmn3);
+        final AutoCompleteTextView pkmnList4 = (AutoCompleteTextView) findViewById(R.id.pkmn4);
+        final AutoCompleteTextView pkmnList5 = (AutoCompleteTextView) findViewById(R.id.pkmn5);
+        final AutoCompleteTextView pkmnList6 = (AutoCompleteTextView) findViewById(R.id.pkmn6);
 
         String[] pokemon = getResources().getStringArray(R.array.lstPkmn);
 
@@ -46,6 +46,11 @@ public class AddPokemonActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), PokemonResults.class);
                 intent.putExtra("pkmn1", pkmnList1.getText().toString());
+                intent.putExtra("pkmn2", pkmnList2.getText().toString());
+                intent.putExtra("pkmn3", pkmnList3.getText().toString());
+                intent.putExtra("pkmn4", pkmnList4.getText().toString());
+                intent.putExtra("pkmn5", pkmnList5.getText().toString());
+                intent.putExtra("pkmn6", pkmnList6.getText().toString());
                 startActivity(intent);
             }
         });
