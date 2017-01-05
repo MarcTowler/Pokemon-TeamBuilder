@@ -23,4 +23,5 @@
 
     <include layout="@layout/content_pokemon_results" />
 
+
 </android.support.design.widget.CoordinatorLayout>

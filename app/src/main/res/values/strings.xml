@@ -20,6 +20,32 @@
     <string name="intro">Welcome to the Team Builder Android application.
         You can currently choose between viewing a type weakness chart (updated for Gen 7) or to enter
         your current team and see the strengths weaknesses of it.</string>
+    <string name="type">Type</string>
+    <string name="zero">0</string>
+    <string name="quart">1/4x</string>
+    <string name="half">1/2x</string>
+    <string name="neut">1x</string>
+    <string name="doub">2x</string>
+    <string name="quad">4x</string>
+
+    <string name="ty_norm">Normal</string>
+    <string name="ty_fight">Fighting</string>
+    <string name="ty_fly">Flying</string>
+    <string name="ty_pois">Poison</string>
+    <string name="ty_grou">Ground</string>
+    <string name="ty_rock">Rock</string>
+    <string name="ty_bug">Bug</string>
+    <string name="ty_ghos">Ghost</string>
+    <string name="ty_stee">Steel</string>
+    <string name="ty_fire">Fire</string>
+    <string name="ty_wate">Water</string>
+    <string name="ty_gras">Grass</string>
+    <string name="ty_elec">Electric</string>
+    <string name="ty_psyc">Psychic</string>
+    <string name="ty_ice">Ice</string>
+    <string name="ty_drag">Dragon</string>
+    <string name="ty_dark">Dark</string>
+    <string name="ty_fair">Fairy</string>
 
 
     <string-array name="lstPkmn">
@@ -135,5 +161,44 @@
         <item>Weezing</item>
         <item>Rhyhorn</item>
         <item>Rhydon</item>
+        <item>Chansey</item>
+        <item>Tangela</item>
+        <item>Kangaskhan</item>
+        <item>Horsea</item>
+        <item>Seadra</item>
+        <item>Goldeen</item>
+        <item>Seaking</item>
+        <item>Staryu</item>
+        <item>Starmie</item>
+        <item>Mr. Mime</item>
+        <item>Scyther</item>
+        <item>Jynx</item>
+        <item>Electabuzz</item>
+        <item>Magmar</item>
+        <item>Pinsir</item>
+        <item>Tauros</item>
+        <item>Magikarp</item>
+        <item>Gyarados</item>
+        <item>Lapras</item>
+        <item>Ditto</item>
+        <item>Eevee</item>
+        <item>Vaporeon</item>
+        <item>Jolteon</item>
+        <item>Flareon</item>
+        <item>Porygon</item>
+        <item>Omanyte</item>
+        <item>Omastar</item>
+        <item>Kabuto</item>
+        <item>Kabutops</item>
+        <item>Aerodactyl</item>
+        <item>Snorlax</item>
+        <item>Articuno</item>
+        <item>Zapdos</item>
+        <item>Moltres</item>
+        <item>Dratini</item>
+        <item>Dragonair</item>
+        <item>Dragonite</item>
+        <item>Mewtwo</item>
+        <item>Mew</item>
     </string-array>
 </resources>
