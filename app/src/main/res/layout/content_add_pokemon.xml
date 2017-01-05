@@ -17,6 +17,15 @@
         android:hint="@string/enterpkmn"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:id="@+id/pkmn1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <AutoCompleteTextView
+        android:hint="@string/enterpkmn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
         android:id="@+id/pkmn2"
         android:layout_below="@+id/pkmn1"
         android:layout_alignLeft="@+id/pkmn1"
@@ -66,13 +75,4 @@
         android:layout_below="@+id/pkmn6"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp" />
-
-    <AutoCompleteTextView
-        android:hint="@string/enterpkmn"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="119dp"
-        android:id="@+id/pkmn1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 </RelativeLayout>
