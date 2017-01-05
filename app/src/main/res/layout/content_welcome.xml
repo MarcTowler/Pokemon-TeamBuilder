@@ -13,12 +13,28 @@
     tools:context="uk.co.marctowler.pokemonteambuilder.WelcomeActivity"
     tools:showIn="@layout/activity_welcome">
 
-    <Button
-        android:text="Button"
+    <TextView
+        android:text="@string/intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="52dp"
-        android:id="@+id/btn_PkmnList" />
+        android:id="@+id/txt_intro"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/teamList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_PkmnList"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/typeChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_typechart"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/txt_intro"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

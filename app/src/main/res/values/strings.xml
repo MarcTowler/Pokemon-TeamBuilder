@@ -13,6 +13,13 @@
     <string name="pkmn4">Your 4th Pokémon:</string>
     <string name="pkmn5">Your 5th Pokémon:</string>
     <string name="pkmn6">Your 6th Pokémon:</string>
+    <string name="typeChart">Gen 7 Type Weakness Chart</string>
+    <string name="teamList">Team Weakness and Strength List</string>
+
+    <string name="title_activity_pokemon_results">Team Results</string>
+    <string name="intro">Welcome to the Team Builder Android application.
+        You can currently choose between viewing a type weakness chart (updated for Gen 7) or to enter
+        your current team and see the strengths weaknesses of it.</string>
 
 
     <string-array name="lstPkmn">
@@ -25,6 +32,108 @@
         <item>Squirtle</item>
         <item>Wartortle</item>
         <item>Blastoise</item>
+        <item>Caterpie</item>
+        <item>Metapod</item>
+        <item>Butterfree</item>
+        <item>Weedle</item>
+        <item>Kakuna</item>
+        <item>Beedrill</item>
+        <item>Pidgey</item>
+        <item>Pidgeotto</item>
+        <item>Pidgeot</item>
+        <item>Rattata</item>
+        <item>Raticate</item>
+        <item>Spearow</item>
+        <item>Fearow</item>
+        <item>Ekans</item>
+        <item>Arbok</item>
+        <item>Pikachu</item>
+        <item>Raichu</item>
+        <item>Sandshrew</item>
+        <item>Sandslash</item>
+        <item>Nidoran♀</item>
+        <item>Nidorina</item>
+        <item>Nidoqueen</item>
+        <item>Nidoran♂</item>
+        <item>Nidorino</item>
+        <item>Nidoking</item>
+        <item>Clefairy</item>
+        <item>Clefable</item>
+        <item>Vulpix</item>
+        <item>Ninetales</item>
+        <item>Jigglypuff</item>
+        <item>Wigglytuff</item>
+        <item>Zubat</item>
+        <item>Golbat</item>
+        <item>Oddish</item>
+        <item>Gloom</item>
+        <item>Vileplume</item>
+        <item>Paras</item>
+        <item>Parasect</item>
+        <item>Venonat</item>
+        <item>Venomoth</item>
+        <item>Diglett</item>
+        <item>Dugtrio</item>
+        <item>Meowth</item>
+        <item>Persian</item>
+        <item>Psyduck</item>
+        <item>Golduck</item>
+        <item>Mankey</item>
+        <item>Primeape</item>
+        <item>Growlithe</item>
+        <item>Arcanine</item>
+        <item>Poliwag</item>
+        <item>Poliwhirl</item>
+        <item>Poliwrath</item>
+        <item>Abra</item>
+        <item>Kadabra</item>
+        <item>Alakazam</item>
+        <item>Machop</item>
+        <item>Machoke</item>
+        <item>Machamp</item>
+        <item>Bellsprout</item>
+        <item>Weepinbell</item>
+        <item>Victreebel</item>
+        <item>Tentacool</item>
+        <item>Tentacruel</item>
+        <item>Geodude</item>
+        <item>Graveler</item>
+        <item>Golem</item>
+        <item>Ponyta</item>
+        <item>Rapidash</item>
+        <item>Slowpoke</item>
+        <item>Slowbro</item>
+        <item>Magnemite</item>
+        <item>Magneton</item>
+        <item>Farfetch\'d</item>
+        <item>Doduo</item>
+        <item>Dodrio</item>
+        <item>Seel</item>
+        <item>Dewgong</item>
+        <item>Grimer</item>
+        <item>Muk</item>
+        <item>Shellder</item>
+        <item>Cloyster</item>
+        <item>Gastly</item>
+        <item>Haunter</item>
+        <item>Gengar</item>
+        <item>Onix</item>
+        <item>Drowzee</item>
+        <item>Hypno</item>
+        <item>Krabby</item>
+        <item>Kingler</item>
+        <item>Voltorb</item>
+        <item>Electrode</item>
+        <item>Exeggcute</item>
+        <item>Exeggutor</item>
+        <item>Cubone</item>
+        <item>Marowak</item>
+        <item>Hitmonlee</item>
+        <item>Hitmonchan</item>
+        <item>Lickitung</item>
+        <item>Koffing</item>
+        <item>Weezing</item>
+        <item>Rhyhorn</item>
+        <item>Rhydon</item>
     </string-array>
-    <string name="title_activity_pokemon_results">Team Results</string>
 </resources>

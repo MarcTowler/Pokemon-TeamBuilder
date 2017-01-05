@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Arrays;
+
 
 /**
  * @TODO Add results calculation
@@ -46,6 +48,10 @@ public class PokemonResults extends AppCompatActivity {
         pkmnName4.setText(pkmn4);
         pkmnName5.setText(pkmn5);
         pkmnName6.setText(pkmn6);
+    }
+
+    protected void typeResults(Arrays pokemon) {
+
     }
 
 }

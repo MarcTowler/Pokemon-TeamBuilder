@@ -21,10 +21,17 @@ public class WelcomeActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Button btnPkmnList = (Button) findViewById(R.id.btn_PkmnList);
+        Button btnChart    = (Button) findViewById(R.id.btn_typechart);
 
         btnPkmnList.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(getApplicationContext(), AddPokemonActivity.class));
+            }
+        });
+
+        btnChart.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TypeChart.class));
             }
         });
     }
