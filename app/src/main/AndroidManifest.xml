@@ -36,7 +36,11 @@
             android:name=".PokemonResults"
             android:label="@string/title_activity_pokemon_results"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TypeChart"></activity>
+        <activity
+            android:name=".TypeChart"
+            android:label="@string/typeChart"
+            android:screenOrientation="landscape"
+            />
     </application>
 
 </manifest>

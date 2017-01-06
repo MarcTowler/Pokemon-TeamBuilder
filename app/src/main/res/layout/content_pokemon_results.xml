@@ -19,6 +19,16 @@
 
 
     <TextView
+        android:text="@string/teamresults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/resHeader"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
         android:text="@string/pkmn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -140,17 +150,6 @@
         layout="@layout/type_chart_result"
         android:layout_below="@+id/txt_pkmn6"
         android:layout_marginTop="21dp" />
-
-    <TextView
-        android:text="@string/teamresults"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/resHeader"
-        android:textSize="24sp"
-        android:textStyle="normal|bold"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp" />
 
 
 </RelativeLayout>
