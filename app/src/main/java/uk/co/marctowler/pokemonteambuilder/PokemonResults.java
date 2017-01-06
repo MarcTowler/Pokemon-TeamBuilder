@@ -48,10 +48,15 @@ public class PokemonResults extends AppCompatActivity {
         pkmnName4.setText(pkmn4);
         pkmnName5.setText(pkmn5);
         pkmnName6.setText(pkmn6);
+
+        String[] tmpArray = {pkmn1, pkmn2, pkmn3, pkmn4, pkmn5, pkmn6};
+
+        typeResults(tmpArray);
     }
 
-    protected void typeResults(Arrays pokemon) {
-
+    protected void typeResults(String[] pokemon) {
+        //I/System.out: arr: [Abra, Abra, Dewgong, Butterfree, Bulbasaur, Ditto]
+        //System.out.println("arr: " + Arrays.toString(pokemon));
     }
 
 }

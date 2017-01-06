@@ -90,35 +90,35 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView12"
+            android:id="@+id/norm_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView11"
+            android:id="@+id/norm_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView10"
+            android:id="@+id/norm_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView9"
+            android:id="@+id/norm_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView8"
+            android:id="@+id/norm_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -139,42 +139,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView32"
+            android:id="@+id/fight_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView33"
+            android:id="@+id/fight_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView34"
+            android:id="@+id/fight_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView35"
+            android:id="@+id/fight_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView36"
+            android:id="@+id/fight_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView37"
+            android:id="@+id/fight_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
 
@@ -196,42 +196,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView38"
+            android:id="@+id/fly_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView39"
+            android:id="@+id/fly_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView40"
+            android:id="@+id/fly_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView41"
+            android:id="@+id/fly_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView42"
+            android:id="@+id/fly_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView43"
+            android:id="@+id/fly_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -252,42 +252,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView44"
+            android:id="@+id/pois_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView45"
+            android:id="@+id/pois_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView46"
+            android:id="@+id/pois_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView48"
+            android:id="@+id/pois_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView49"
+            android:id="@+id/pois_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView50"
+            android:id="@+id/pois_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -308,42 +308,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView51"
+            android:id="@+id/grou_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView52"
+            android:id="@+id/grou_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView53"
+            android:id="@+id/grou_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView54"
+            android:id="@+id/grou_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView55"
+            android:id="@+id/grou_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView47"
+            android:id="@+id/grou_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -364,42 +364,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView56"
+            android:id="@+id/rock_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView66"
+            android:id="@+id/rock_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView62"
+            android:id="@+id/rock_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView65"
+            android:id="@+id/rock_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView64"
+            android:id="@+id/rock_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView63"
+            android:id="@+id/rock_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -420,42 +420,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView67"
+            android:id="@+id/bug_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView69"
+            android:id="@+id/bug_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView71"
+            android:id="@+id/bug_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView70"
+            android:id="@+id/bug_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView68"
+            android:id="@+id/bug_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView57"
+            android:id="@+id/bug_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -476,42 +476,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView72"
+            android:id="@+id/ghos_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView76"
+            android:id="@+id/ghos_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView75"
+            android:id="@+id/ghos_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView74"
+            android:id="@+id/ghos_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView73"
+            android:id="@+id/ghos_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView58"
+            android:id="@+id/ghos_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -532,42 +532,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView77"
+            android:id="@+id/steel_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView78"
+            android:id="@+id/steel_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView80"
+            android:id="@+id/steel_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView81"
+            android:id="@+id/steel_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView79"
+            android:id="@+id/steel_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView59"
+            android:id="@+id/steel_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -588,42 +588,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView83"
+            android:id="@+id/fire_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView85"
+            android:id="@+id/fire_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView86"
+            android:id="@+id/fire_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView82"
+            android:id="@+id/fire_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView84"
+            android:id="@+id/fire_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView60"
+            android:id="@+id/fire_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -644,42 +644,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView88"
+            android:id="@+id/water_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView92"
+            android:id="@+id/water_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView91"
+            android:id="@+id/water_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView90"
+            android:id="@+id/water_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView89"
+            android:id="@+id/water_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView61"
+            android:id="@+id/water_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -700,42 +700,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView93"
+            android:id="@+id/grass_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView96"
+            android:id="@+id/grass_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView97"
+            android:id="@+id/grass_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView95"
+            android:id="@+id/grass_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView94"
+            android:id="@+id/grass_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView87"
+            android:id="@+id/grass_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -756,42 +756,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView100"
+            android:id="@+id/elec_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView101"
+            android:id="@+id/elec_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView102"
+            android:id="@+id/elec_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView103"
+            android:id="@+id/elec_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView99"
+            android:id="@+id/elec_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView98"
+            android:id="@+id/elec_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -812,42 +812,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView105"
+            android:id="@+id/psych_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView109"
+            android:id="@+id/psych_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView107"
+            android:id="@+id/psuch_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView108"
+            android:id="@+id/psych_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView106"
+            android:id="@+id/psych_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView104"
+            android:id="@+id/psych_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -868,42 +868,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView111"
+            android:id="@+id/ice_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView113"
+            android:id="@+id/ice_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView115"
+            android:id="@+id/ice_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView114"
+            android:id="@+id/ice_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView112"
+            android:id="@+id/ice_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView110"
+            android:id="@+id/ice_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
 
@@ -925,42 +925,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView119"
+            android:id="@+id/drag_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView118"
+            android:id="@+id/drag_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView121"
+            android:id="@+id/drag_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView120"
+            android:id="@+id/drag_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView117"
+            android:id="@+id/drag_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView116"
+            android:id="@+id/drag_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -981,42 +981,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView126"
+            android:id="@+id/dark_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView127"
+            android:id="@+id/dark_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView125"
+            android:id="@+id/dark_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView124"
+            android:id="@+id/dark_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView123"
+            android:id="@+id/dark_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView122"
+            android:id="@+id/dark_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
@@ -1037,42 +1037,42 @@
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView129"
+            android:id="@+id/fair_zero"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView133"
+            android:id="@+id/fair_quart"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView130"
+            android:id="@+id/fair_half"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView132"
+            android:id="@+id/fair_neut"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView131"
+            android:id="@+id/fair_doub"
             android:textAlignment="center" />
 
         <TextView
             android:text="@string/zero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView128"
+            android:id="@+id/fair_quad"
             android:textAlignment="center"
             android:paddingRight="16dp" />
     </TableRow>
