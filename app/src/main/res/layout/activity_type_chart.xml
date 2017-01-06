@@ -10,4 +10,5 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="uk.co.marctowler.pokemonteambuilder.TypeChart">
 
+    <include layout="@layout/content_type_chart" />
 </RelativeLayout>
