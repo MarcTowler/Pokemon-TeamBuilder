@@ -1,14 +1,10 @@
 package uk.co.marctowler.pokemonteambuilder;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.TextView;
-
-import java.util.Arrays;
 
 
 /**
@@ -17,8 +13,10 @@ import java.util.Arrays;
  */
 public class PokemonResults extends AppCompatActivity {
 
+    DatabaseHelper myDB;
+    SQLiteDatabase db = null;
+
     /**
-     * @TODO Add content of strings to text views
      * @param savedInstanceState
      */
     @Override
@@ -27,6 +25,17 @@ public class PokemonResults extends AppCompatActivity {
         setContentView(R.layout.activity_pokemon_results);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        myDB = new DatabaseHelper(this);
+        myDB.initializeDataBase();
+
+        try {
+            db = myDB.getWritableDatabase();
+        } catch(Exception ex) {
+            ex.printStackTrace();
+        } finally {
+            db.close();
+        }
 
         String pkmn1 = getIntent().getStringExtra("pkmn1");
         String pkmn2 = getIntent().getStringExtra("pkmn2");
