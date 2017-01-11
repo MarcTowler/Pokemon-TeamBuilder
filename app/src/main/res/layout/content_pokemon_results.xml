@@ -96,8 +96,7 @@
         android:layout_toEndOf="@+id/txt_pkmn2"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:id="@+id/pulled1"
-        android:text="test"/>
+        android:id="@+id/pulled1" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -105,8 +104,7 @@
         android:layout_alignTop="@+id/txt_pkmn2"
         android:layout_alignLeft="@+id/pulled1"
         android:layout_alignStart="@+id/pulled1"
-        android:id="@+id/pulled2"
-        android:text="test" />
+        android:id="@+id/pulled2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -114,8 +112,7 @@
         android:layout_alignTop="@+id/txt_pkmn3"
         android:layout_alignLeft="@+id/pulled2"
         android:layout_alignStart="@+id/pulled2"
-        android:id="@+id/pulled3"
-        android:text="test" />
+        android:id="@+id/pulled3" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -123,8 +120,7 @@
         android:layout_alignTop="@+id/txt_pkmn4"
         android:layout_alignLeft="@+id/pulled3"
         android:layout_alignStart="@+id/pulled3"
-        android:id="@+id/pulled4"
-        android:text="tes" />
+        android:id="@+id/pulled4" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -132,8 +128,7 @@
         android:layout_alignTop="@+id/txt_pkmn5"
         android:layout_alignLeft="@+id/pulled4"
         android:layout_alignStart="@+id/pulled4"
-        android:id="@+id/pulled5"
-        android:text="tes" />
+        android:id="@+id/pulled5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -141,8 +136,7 @@
         android:layout_alignBottom="@+id/txt_pkmn6"
         android:layout_alignLeft="@+id/pulled5"
         android:layout_alignStart="@+id/pulled5"
-        android:id="@+id/pulled6"
-        android:text="Text" />
+        android:id="@+id/pulled6" />
 
     <include
         android:layout_width="wrap_content"
