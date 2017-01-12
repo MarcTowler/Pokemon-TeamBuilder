@@ -26,16 +26,9 @@ public class PokemonResults extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        myDB = new DatabaseHelper(this);
-        myDB.initializeDataBase();
 
-        try {
-            db = myDB.getWritableDatabase();
-        } catch(Exception ex) {
-            ex.printStackTrace();
-        } finally {
-            db.close();
-        }
+
+
 
         String pkmn1 = getIntent().getStringExtra("pkmn1");
         String pkmn2 = getIntent().getStringExtra("pkmn2");
@@ -64,6 +57,12 @@ public class PokemonResults extends AppCompatActivity {
     }
 
     protected void typeResults(String[] pokemon) {
+        int size = pokemon.length;
+        String[] types;
+
+        for(int i =0; i < size; i++) {
+
+        }
         //I/System.out: arr: [Abra, Abra, Dewgong, Butterfree, Bulbasaur, Ditto]
         //System.out.println("arr: " + Arrays.toString(pokemon));
     }
