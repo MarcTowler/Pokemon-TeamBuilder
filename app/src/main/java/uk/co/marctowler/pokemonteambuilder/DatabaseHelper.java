@@ -13,10 +13,11 @@ import java.io.InputStream;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "typeChart.db";
-    private final Context myContext;
+    private final Context myContext = null;
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, context.getResources().getInteger(R.string.databaseVersion));
+        SQLiteDatabase db = this.getWritableDatabase();
     }
 
     @Override
@@ -52,7 +53,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public Cursor queryOne(String name) {
         SQLiteDatabase db = this.getWritableDatabase();
 
-        Cursor res = db.rawQuery("SELECT type1, type2 FROM pokemon WHERE name = ?",
+        Cursor res = db.rawQuery("SELECT type1, type2 FROM Pokemon WHERE name = ?",
                 new String[]{name});
 
         return res;

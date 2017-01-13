@@ -1,7 +1,9 @@
 package uk.co.marctowler.pokemonteambuilder;
 
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
@@ -14,7 +16,6 @@ import android.widget.TextView;
 public class PokemonResults extends AppCompatActivity {
 
     DatabaseHelper myDB;
-    SQLiteDatabase db = null;
 
     /**
      * @param savedInstanceState
@@ -26,9 +27,7 @@ public class PokemonResults extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-
-
+        myDB = new DatabaseHelper(this);
 
         String pkmn1 = getIntent().getStringExtra("pkmn1");
         String pkmn2 = getIntent().getStringExtra("pkmn2");
@@ -60,8 +59,10 @@ public class PokemonResults extends AppCompatActivity {
         int size = pokemon.length;
         String[] types;
 
-        for(int i =0; i < size; i++) {
+        Cursor res = myDB.queryOne(pokemon[0]);
 
+        if(res != null && res.moveToFirst()) {
+            System.out.println(res.toString());
         }
         //I/System.out: arr: [Abra, Abra, Dewgong, Butterfree, Bulbasaur, Ditto]
         //System.out.println("arr: " + Arrays.toString(pokemon));
