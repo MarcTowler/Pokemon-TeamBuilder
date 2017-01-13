@@ -56,13 +56,18 @@ public class PokemonResults extends AppCompatActivity {
     }
 
     protected void typeResults(String[] pokemon) {
-        int size = pokemon.length;
-        String[] types;
+        String[] types = new String[11];
+        int j  = 0;
 
-        Cursor res = myDB.queryOne(pokemon[0]);
+        for(int i = 0; i < 12; i++) {
+            Cursor res = myDB.queryOne(pokemon[i]);
 
-        if(res != null && res.moveToFirst()) {
-            System.out.println(res.toString());
+            if (res != null && res.moveToFirst()) {
+                types[j] = res.getString(0);
+                j++;
+                types[j] = res.getString(1);
+                j++;
+            }
         }
         //I/System.out: arr: [Abra, Abra, Dewgong, Butterfree, Bulbasaur, Ditto]
         //System.out.println("arr: " + Arrays.toString(pokemon));

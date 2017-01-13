@@ -52,6 +52,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public Cursor queryOne(String name) {
         SQLiteDatabase db = this.getWritableDatabase();
+        String[] data = null;
 
         Cursor res = db.rawQuery("SELECT type1, type2 FROM Pokemon WHERE name = ?",
                 new String[]{name});
