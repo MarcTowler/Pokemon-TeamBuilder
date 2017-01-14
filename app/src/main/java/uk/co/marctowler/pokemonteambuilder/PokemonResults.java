@@ -1,9 +1,7 @@
 package uk.co.marctowler.pokemonteambuilder;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
@@ -55,22 +53,42 @@ public class PokemonResults extends AppCompatActivity {
         typeResults(tmpArray);
     }
 
-    protected void typeResults(String[] pokemon) {
+    /**
+     * @TODO Add an array of weaknesses for defense
+     * @param pokemon
+     */
+    protected String[] typeResults(String[] pokemon) {
         String[] types = new String[11];
+        String[] weakness = new String[11];
         int j  = 0;
 
         for(int i = 0; i < 12; i++) {
             Cursor res = myDB.queryOne(pokemon[i]);
 
             if (res != null && res.moveToFirst()) {
-                types[j] = res.getString(0);
-                j++;
-                types[j] = res.getString(1);
-                j++;
+                if(res.getString(0) != "None") {
+                    types[j] = res.getString(0);
+                    j++;
+                }
+
+                if(res.getString(1) != "None") {
+                    types[j] = res.getString(1);
+                    j++;
+                }
             }
         }
+
+        //Lets find out the weakness results
+        weakness = weaknessResults(types);
+
+        return weakness;
         //I/System.out: arr: [Abra, Abra, Dewgong, Butterfree, Bulbasaur, Ditto]
         //System.out.println("arr: " + Arrays.toString(pokemon));
     }
 
+    public String[] weaknessResults(String[] defenseTypes) {
+        String[] results = null;
+
+        return results;
+    }
 }
